@@ -48,19 +48,19 @@ exports.run = (client, message, args, user) => {
             url: imageurl,
         },
         fields: [{
-            name: 'username',
-			value: uname,
+            name: '> username',
+			value: "`"+uname+"`",
         },
         {
-            name: 'id',
-            value: userId,
+            name: '> id',
+            value: "`"+userId+"`",
         },
         {
-            name: 'creation date',
+            name: '> creation date',
             value: userCreationDate,
         },
         {
-            name: 'join date',
+            name: '> join date',
             value: userJoinDate,
         }
         ],

@@ -3,6 +3,7 @@ exports.run = (client, message) => {
 
     let description = "\`\`\`asciidoc\n";
     description += "Base commands: \n";
+    description += `>  ${client.config.prefix}socials :: Falsey's socials\n`;
     description += `>     ${client.config.prefix}ping :: Calculates response time \n`;
     description += `>   ${client.config.prefix}status :: Shows basic bot stats\n`;
     description += `>     ${client.config.prefix}stus :: ok I type stus\n`;
@@ -11,7 +12,6 @@ exports.run = (client, message) => {
     description += `>     ${client.config.prefix}help :: Outputs a list of commands\n`;
     description += `>     ${ client.config.prefix}pick :: Picks a choice out of 2/3\n`;
     description += `> ${client.config.prefix}coinflip :: Heads or tails!\n`;
-    description += `>   ${client.config.prefix}kogasa :: Kogasa Tatara is a karak-\n`;
     description += `>     ${client.config.prefix}embc :: create an embed!\n`;
     description += "\n";
     description += "Cute commands: \n";

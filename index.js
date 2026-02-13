@@ -37,7 +37,7 @@ client.config = config;
     }
 
     client.user.setStatus("dnd");
-    client.user.setActivity('with humans!', { type: ActivityType.Playing });
+    client.user.setActivity('77 | 3328', { type: ActivityType.Playing });
     // talk events
   client.on('messageCreate', message => {
     switch (message.content.toLowerCase()) {
@@ -46,6 +46,12 @@ client.config = config;
         break;
       case "stus":
         message.channel.send("OH AND ONE MORE THING CASSIUS, STUS. <:stus:1233512808654573569>")
+        break;
+      case "bulgaria":
+        message.channel.send("more like Boo!lgaria heh haha idiot.")
+        break;
+      case "gella ma hue":
+        message.channel.send("https://media.discordapp.net/attachments/965307821052813342/1430650436695621752/a.gif?ex=698edd4c&is=698d8bcc&hm=04c7f14b56f3523bfb3416a309a6bf5bb08eb1a2354531ffd5a6c66c81afc21c&=&width=585&height=439")
         break;
     }
 
